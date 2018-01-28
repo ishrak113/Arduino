@@ -1,0 +1,4 @@
+command :  F:\Main thesis\thesis soft\thesis\arduino-1.6.5-r2-windows\arduino-1.6.5-r2\hardware\tools\avr/bin/avrdude.exe
+
+arguments:  -C"F:\Main thesis\thesis soft\thesis\arduino-1.6.5-r2-windows\arduino-1.6.5-r2\hardware\tools\avr/etc/avrdude.conf" -v -patmega328p -carduino -PCOM11 -b115200 -D -Uflash:w:"$(ProjectDir)Debug\$(TargetName).hex":i
+
